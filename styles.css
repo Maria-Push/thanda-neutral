@@ -3,6 +3,10 @@
     animation: none !important;
 }
 
+#pawTracks {
+    display: none !important;
+}
+
 /* ========================================
    CUSTOM FONT - FIBRE
    ======================================== */
@@ -245,7 +249,7 @@ button {
     position: absolute;
     inset: 0;
     background: var(--section-bg);
-    transform: skewY(var(--skew-angle, 0deg));
+    /* transform: skewY(var(--skew-angle, 0deg)); */
     z-index: -1;
 }
 
@@ -262,8 +266,8 @@ button {
         ),
         url('images/safari.jpg') center/cover no-repeat;
 
-    transform: skewY(-3deg);
-    transform-origin: top left;
+    /* transform: skewY(-3deg); */
+    /* transform-origin: top left; */
     z-index: 0;
 }
 
