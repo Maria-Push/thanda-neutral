@@ -7,6 +7,7 @@
     display: none !important;
 }
 
+
 /* ========================================
    CUSTOM FONT - FIBRE
    ======================================== */
@@ -301,8 +302,8 @@ button {
 .btn-primary {
     background-color: var(--color-primary-dark);
     color: var(--color-white);
-    text-shadow: 0 1px 2px rgba(23, 10, 0, 0.6);
-    box-shadow: 0 1px 2px rgba(23, 10, 0, 0.6);
+    /* text-shadow: 0 1px 2px rgba(23, 10, 0, 0.6);
+    box-shadow: 0 1px 2px rgba(23, 10, 0, 0.6); */
 }
  
 /* .btn-primary:hover {
@@ -349,7 +350,7 @@ button {
 .btn-dark {
     background-color: var(--color-primary-dark);
     color: var(--color-white);
-    box-shadow: 0 1px 2px rgba(23, 10, 0, 0.6);
+    /* box-shadow: 0 1px 2px rgba(23, 10, 0, 0.6); */
 }
  
 /* .btn-dark:hover {
@@ -402,7 +403,7 @@ button {
     backdrop-filter: blur(10px);
     border-radius: 50px;
     padding: 0.75rem 0.95rem;
-    box-shadow: 0 4px 10px rgba(59, 42, 31, 0.2);
+    /* box-shadow: 0 4px 10px rgba(59, 42, 31, 0.2); */
     z-index: 10;
     transition: transform 0.4s ease, opacity 0.4s ease;
     box-sizing: border-box;
@@ -486,7 +487,7 @@ button {
     transition: var(--transition-fast);
     display: inline-block;
     font-weight: var(--font-weight-bold);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); */
 }
 
 /* .nav-link:hover {
@@ -579,24 +580,7 @@ button {
     position: relative; /* needed so ::before is positioned relative to this */
 }
 
-.hero-content::before {
-    content: '';
-    position: absolute;
-    pointer-events: none;
-    z-index: 1;
-    background: url('images/paint.png') no-repeat left center / contain;
-    opacity: 0.45;
-    /* Size — same values you had before */
-    width: 40vw;
-    max-width: 500px;
-    min-width: 300px;
-    height: 75vh;
-    /* Position — same as before */
-    left: -20.5vw;
-    top: 30%;
-    transform: translateY(-38%) translateX(-33%) scaleX(2.1) scaleY(1.4);
-    transform-origin: left center;
-}
+
 
  
 .hero-title {
@@ -609,7 +593,7 @@ button {
     margin-bottom: var(--spacing-lg);
     position: relative;
     z-index: 3;
-    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
+    /* text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6); */
 }
  
 .hero-subtitle {
@@ -619,7 +603,7 @@ button {
     margin-bottom: var(--spacing-xl);
     position: relative;
     z-index: 3;
-    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.4);
+    /* text-shadow: 0 1px 2px rgba(255, 255, 255, 0.4); */
 }
  
 /* Angled badge — grips the right edge of the hero section, scrolls with page */
@@ -630,7 +614,7 @@ button {
     right: -2.5%;
     bottom: -10%;
     transform: none;
-    z-index: 3;
+    z-index: 6;
     padding: 0.75rem 2.5rem 0.75rem 1.5rem;
     background-color: var(--color-accent);
     clip-path: polygon(
@@ -639,7 +623,7 @@ button {
         calc(100% - 14px) 100%,
         0 100%, 0 14px
     );
-    filter: drop-shadow(0 0 20px rgb(27, 27, 27));
+    /* filter: drop-shadow(0 0 20px rgb(27, 27, 27)); */
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-bold);
     letter-spacing: 0.02rem;
@@ -678,7 +662,7 @@ button {
     letter-spacing: 1px;
     margin-bottom: var(--spacing-md);
     color: var(--color-primary-dark);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); */
 }
 
 .section-subtitle {
@@ -689,7 +673,7 @@ button {
     letter-spacing: 2px;
     color: var(--color-primary-mid);
     margin-bottom: var(--spacing-3xl);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); */
 }
 
 .cards-grid {
@@ -708,7 +692,7 @@ button {
 
     transition:
         transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
-        box-shadow 0.45s ease-in-out,
+        /* box-shadow 0.45s ease-in-out, */
         background-color 0.35s ease-in-out,
         color 0.35s ease-in-out;
 }
@@ -806,14 +790,14 @@ button {
     margin-top: var(--spacing-sm);
     margin-bottom: var(--spacing-md);
     color: var(--color-white);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+    /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8); */
 }
 
 .why-matters-text {
     font-size: 1.25rem;
     line-height: var(--line-height-relaxed);
     color: var(--color-cream);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7); */
 }
 
 /* ========================================
@@ -871,7 +855,7 @@ button {
     color: var(--color-primary-dark);
     margin-bottom: var(--spacing-sm);
     width: 100%;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    /* text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); */
 }
 
 .stat-number::after {
@@ -899,7 +883,7 @@ button {
     -webkit-line-clamp: 3;
     overflow: hidden;
     min-height: calc(1.4em * 3);  /*to reserve 3 lines*/
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); */
 }
 
 
@@ -938,7 +922,7 @@ button {
     font-size: 1.1rem;
     font-weight: var(--font-weight-bold);
     margin-bottom: var(--spacing-md);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); */
 }
  
 /* Decorative line under intro */
@@ -957,7 +941,7 @@ button {
     line-height: var(--line-height-relaxed);
     max-width: 70%;
     margin: 0 auto var(--spacing-lg);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+    /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35); */
 }
  
 .volunteer-badge {
@@ -976,7 +960,7 @@ button {
         calc(100% - 14px) 100%,
         0 100%, 0 14px
     );
-    filter: drop-shadow(0 0 20px var(--color-footer));
+    /* filter: drop-shadow(0 0 20px var(--color-footer)); */
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-bold);
     letter-spacing: 0.02rem;
@@ -999,7 +983,7 @@ button {
     padding: var(--spacing-xl);
     color: var(--color-white);
     text-align: center;
-    box-shadow: 0 4px 10px rgba(59, 42, 31, 0.2);
+    /* box-shadow: 0 4px 10px rgba(59, 42, 31, 0.2); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1042,7 +1026,7 @@ button {
 }
 
 .volunteer-actions .btn {
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); */
 }
 /* ========================================
    STORIES SECTION
@@ -1076,10 +1060,10 @@ button {
     background-color: var(--color-white);
     padding: var(--spacing-xl);
     border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-card);
+    /* box-shadow: var(--shadow-card); */
     position: relative;
     transition: transform var(--transition-medium), box-shadow var(--transition-medium);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); */
 }
 
 /* First card spans both columns */
@@ -1089,7 +1073,7 @@ button {
      /* Emphasis */
     background: linear-gradient(to bottom right, var(--color-cream) 0%, var(--color-secondary-light) 150%);
     border-left: 4px solid var(--color-accent);  /* Left accent bar */
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); */
 }
 
 /* Cards 2 and 3 take one column each */
@@ -1215,11 +1199,11 @@ button {
     font-style: italic;
 }
  
-.form-input:focus {
+/* .form-input:focus {
     outline: none;
     border-color: var(--color-accent);
     background-color: rgba(255, 255, 255, 0.2);
-}
+} */
  
 .form-note {
     font-size: var(--font-size-small);
@@ -1250,12 +1234,12 @@ button {
     color: white;
     padding: 2rem 2.5rem;
     border-radius: var(--radius-md);
-    box-shadow: var(--shadow-medium);
+    /* box-shadow: var(--shadow-medium); */
     opacity: 0;
     transition: 0.3s ease;
     z-index: 999;
     text-align: center;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); */
     font-size: var(--font-size-h4);
 }
 
@@ -1551,7 +1535,7 @@ button {
         border-radius: var(--radius-lg);
         margin-top: var(--spacing-sm);
         padding: var(--spacing-md);
-        box-shadow: var(--shadow-medium);
+        /* box-shadow: var(--shadow-medium); */
         z-index: 100;
     }
  
@@ -1622,7 +1606,7 @@ button {
 
     filter: none;
     font-size: calc(var(--font-size-small) - 0.1rem);
-    box-shadow: 0 1px 2px rgba(23, 10, 0, 0.4);
+    /* box-shadow: 0 1px 2px rgba(23, 10, 0, 0.4); */
 }
 
 
@@ -1745,7 +1729,7 @@ button {
         border-radius: var(--radius-lg);
         margin-top: var(--spacing-xs);
         padding: var(--spacing-sm);
-        box-shadow: var(--shadow-medium);
+        /* box-shadow: var(--shadow-medium); */
         line-height: 0.5rem;
         z-index: 100;
     }
@@ -1758,18 +1742,18 @@ button {
        against the warm amber/golden hero photo tones */
     .hero-title {
         color: var(--color-cream);
-        text-shadow:
+        /* text-shadow:
             0 1px 3px rgba(30, 18, 8, 0.95),
             0 2px 12px rgba(30, 18, 8, 0.65),
-            0 0 30px rgba(30, 18, 8, 0.4);
+            0 0 30px rgba(30, 18, 8, 0.4); */
     }
 
     .hero-subtitle {
         color: var(--color-cream);
-        text-shadow:
+        /* text-shadow:
             0 1px 3px rgba(30, 18, 8, 0.9),
             0 2px 10px rgba(30, 18, 8, 0.6),
-            0 0 24px rgba(30, 18, 8, 0.35);
+            0 0 24px rgba(30, 18, 8, 0.35); */
     }
     
 
@@ -1868,7 +1852,7 @@ button {
         border-radius: var(--radius-lg);
         margin-top: var(--spacing-xs);
         padding: var(--spacing-sm);
-        box-shadow: var(--shadow-medium);
+        /* box-shadow: var(--shadow-medium); */
         z-index: 100;
     }
  
@@ -1982,7 +1966,7 @@ button {
         border-radius: var(--radius-lg);
         margin-top: var(--spacing-xs);
         padding: var(--spacing-sm);
-        box-shadow: var(--shadow-medium);
+        /* box-shadow: var(--shadow-medium); */
         z-index: 100;
     }
  
